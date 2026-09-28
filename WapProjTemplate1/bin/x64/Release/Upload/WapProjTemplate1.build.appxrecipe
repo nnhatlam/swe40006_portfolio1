@@ -1,0 +1,628 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MEATBALL</Machine>
+    <WindowsUser>DELL</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>NguyenNhatLam.MyHappyCat</PackageIdentityName>
+    <PackageIdentityPublisher>CN=36AF6A6C-191B-4C3E-917B-7F7BECD58CDF</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\STUDY\SWIN\SWE40006\Portfolio 1\WapProjTemplate1\obj\x64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath></WindowsSdkPath>
+    <LayoutDir>D:\STUDY\SWIN\SWE40006\Portfolio 1\WapProjTemplate1\bin\x64\Release\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\STUDY\SWIN\SWE40006\Portfolio 1\WapProjTemplate1\bin\x64\Release\Upload\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\SWE40006\Portfolio 1\WapProjTemplate1\Images\SplashScreen.scale-200.png">
+      <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\SWE40006\Portfolio 1\WapProjTemplate1\Images\LockScreenLogo.scale-200.png">
+      <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\SWE40006\Portfolio 1\WapProjTemplate1\Images\Square150x150Logo.scale-200.png">
+      <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\SWE40006\Portfolio 1\WapProjTemplate1\Images\Square44x44Logo.scale-200.png">
+      <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\SWE40006\Portfolio 1\WapProjTemplate1\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\SWE40006\Portfolio 1\WapProjTemplate1\Images\StoreLogo.png">
+      <PackagePath>Images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\SWE40006\Portfolio 1\WapProjTemplate1\Images\Wide310x150Logo.scale-200.png">
+      <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\SWE40006\Portfolio 1\WapProjTemplate1\bin\x64\Release\Upload\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\MyHappyCat.exe">
+      <PackagePath>MyHappyCat\MyHappyCat.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\MyHappyCat.dll">
+      <PackagePath>MyHappyCat\MyHappyCat.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\MyHappyCat.deps.json">
+      <PackagePath>MyHappyCat\MyHappyCat.deps.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\MyHappyCat.runtimeconfig.json">
+      <PackagePath>MyHappyCat\MyHappyCat.runtimeconfig.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\Microsoft.CSharp.dll">
+      <PackagePath>MyHappyCat\Microsoft.CSharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\Microsoft.VisualBasic.Core.dll">
+      <PackagePath>MyHappyCat\Microsoft.VisualBasic.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\Microsoft.VisualBasic.dll">
+      <PackagePath>MyHappyCat\Microsoft.VisualBasic.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\Microsoft.Win32.Primitives.dll">
+      <PackagePath>MyHappyCat\Microsoft.Win32.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\Microsoft.Win32.Registry.dll">
+      <PackagePath>MyHappyCat\Microsoft.Win32.Registry.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.AppContext.dll">
+      <PackagePath>MyHappyCat\System.AppContext.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Buffers.dll">
+      <PackagePath>MyHappyCat\System.Buffers.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Collections.Concurrent.dll">
+      <PackagePath>MyHappyCat\System.Collections.Concurrent.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Collections.Immutable.dll">
+      <PackagePath>MyHappyCat\System.Collections.Immutable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Collections.NonGeneric.dll">
+      <PackagePath>MyHappyCat\System.Collections.NonGeneric.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Collections.Specialized.dll">
+      <PackagePath>MyHappyCat\System.Collections.Specialized.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Collections.dll">
+      <PackagePath>MyHappyCat\System.Collections.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.ComponentModel.Annotations.dll">
+      <PackagePath>MyHappyCat\System.ComponentModel.Annotations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.ComponentModel.DataAnnotations.dll">
+      <PackagePath>MyHappyCat\System.ComponentModel.DataAnnotations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>MyHappyCat\System.ComponentModel.EventBasedAsync.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.ComponentModel.Primitives.dll">
+      <PackagePath>MyHappyCat\System.ComponentModel.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.ComponentModel.TypeConverter.dll">
+      <PackagePath>MyHappyCat\System.ComponentModel.TypeConverter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.ComponentModel.dll">
+      <PackagePath>MyHappyCat\System.ComponentModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Configuration.dll">
+      <PackagePath>MyHappyCat\System.Configuration.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Console.dll">
+      <PackagePath>MyHappyCat\System.Console.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Core.dll">
+      <PackagePath>MyHappyCat\System.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Data.Common.dll">
+      <PackagePath>MyHappyCat\System.Data.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Data.DataSetExtensions.dll">
+      <PackagePath>MyHappyCat\System.Data.DataSetExtensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Data.dll">
+      <PackagePath>MyHappyCat\System.Data.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Diagnostics.Contracts.dll">
+      <PackagePath>MyHappyCat\System.Diagnostics.Contracts.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Diagnostics.Debug.dll">
+      <PackagePath>MyHappyCat\System.Diagnostics.Debug.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Diagnostics.DiagnosticSource.dll">
+      <PackagePath>MyHappyCat\System.Diagnostics.DiagnosticSource.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Diagnostics.FileVersionInfo.dll">
+      <PackagePath>MyHappyCat\System.Diagnostics.FileVersionInfo.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Diagnostics.Process.dll">
+      <PackagePath>MyHappyCat\System.Diagnostics.Process.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Diagnostics.StackTrace.dll">
+      <PackagePath>MyHappyCat\System.Diagnostics.StackTrace.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Diagnostics.TextWriterTraceListener.dll">
+      <PackagePath>MyHappyCat\System.Diagnostics.TextWriterTraceListener.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Diagnostics.Tools.dll">
+      <PackagePath>MyHappyCat\System.Diagnostics.Tools.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Diagnostics.TraceSource.dll">
+      <PackagePath>MyHappyCat\System.Diagnostics.TraceSource.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Diagnostics.Tracing.dll">
+      <PackagePath>MyHappyCat\System.Diagnostics.Tracing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Drawing.Primitives.dll">
+      <PackagePath>MyHappyCat\System.Drawing.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Drawing.dll">
+      <PackagePath>MyHappyCat\System.Drawing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Dynamic.Runtime.dll">
+      <PackagePath>MyHappyCat\System.Dynamic.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Formats.Asn1.dll">
+      <PackagePath>MyHappyCat\System.Formats.Asn1.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Formats.Tar.dll">
+      <PackagePath>MyHappyCat\System.Formats.Tar.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Globalization.Calendars.dll">
+      <PackagePath>MyHappyCat\System.Globalization.Calendars.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Globalization.Extensions.dll">
+      <PackagePath>MyHappyCat\System.Globalization.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Globalization.dll">
+      <PackagePath>MyHappyCat\System.Globalization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.IO.Compression.Brotli.dll">
+      <PackagePath>MyHappyCat\System.IO.Compression.Brotli.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.IO.Compression.FileSystem.dll">
+      <PackagePath>MyHappyCat\System.IO.Compression.FileSystem.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.IO.Compression.ZipFile.dll">
+      <PackagePath>MyHappyCat\System.IO.Compression.ZipFile.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.IO.Compression.dll">
+      <PackagePath>MyHappyCat\System.IO.Compression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.IO.FileSystem.AccessControl.dll">
+      <PackagePath>MyHappyCat\System.IO.FileSystem.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.IO.FileSystem.DriveInfo.dll">
+      <PackagePath>MyHappyCat\System.IO.FileSystem.DriveInfo.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>MyHappyCat\System.IO.FileSystem.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.IO.FileSystem.Watcher.dll">
+      <PackagePath>MyHappyCat\System.IO.FileSystem.Watcher.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.IO.FileSystem.dll">
+      <PackagePath>MyHappyCat\System.IO.FileSystem.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.IO.IsolatedStorage.dll">
+      <PackagePath>MyHappyCat\System.IO.IsolatedStorage.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.IO.MemoryMappedFiles.dll">
+      <PackagePath>MyHappyCat\System.IO.MemoryMappedFiles.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.IO.Pipelines.dll">
+      <PackagePath>MyHappyCat\System.IO.Pipelines.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.IO.Pipes.AccessControl.dll">
+      <PackagePath>MyHappyCat\System.IO.Pipes.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.IO.Pipes.dll">
+      <PackagePath>MyHappyCat\System.IO.Pipes.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>MyHappyCat\System.IO.UnmanagedMemoryStream.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.IO.dll">
+      <PackagePath>MyHappyCat\System.IO.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Linq.Expressions.dll">
+      <PackagePath>MyHappyCat\System.Linq.Expressions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Linq.Parallel.dll">
+      <PackagePath>MyHappyCat\System.Linq.Parallel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Linq.Queryable.dll">
+      <PackagePath>MyHappyCat\System.Linq.Queryable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Linq.dll">
+      <PackagePath>MyHappyCat\System.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Memory.dll">
+      <PackagePath>MyHappyCat\System.Memory.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Net.Http.Json.dll">
+      <PackagePath>MyHappyCat\System.Net.Http.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Net.Http.dll">
+      <PackagePath>MyHappyCat\System.Net.Http.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Net.HttpListener.dll">
+      <PackagePath>MyHappyCat\System.Net.HttpListener.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Net.Mail.dll">
+      <PackagePath>MyHappyCat\System.Net.Mail.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Net.NameResolution.dll">
+      <PackagePath>MyHappyCat\System.Net.NameResolution.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Net.NetworkInformation.dll">
+      <PackagePath>MyHappyCat\System.Net.NetworkInformation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Net.Ping.dll">
+      <PackagePath>MyHappyCat\System.Net.Ping.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Net.Primitives.dll">
+      <PackagePath>MyHappyCat\System.Net.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Net.Quic.dll">
+      <PackagePath>MyHappyCat\System.Net.Quic.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Net.Requests.dll">
+      <PackagePath>MyHappyCat\System.Net.Requests.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Net.Security.dll">
+      <PackagePath>MyHappyCat\System.Net.Security.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Net.ServicePoint.dll">
+      <PackagePath>MyHappyCat\System.Net.ServicePoint.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Net.Sockets.dll">
+      <PackagePath>MyHappyCat\System.Net.Sockets.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Net.WebClient.dll">
+      <PackagePath>MyHappyCat\System.Net.WebClient.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Net.WebHeaderCollection.dll">
+      <PackagePath>MyHappyCat\System.Net.WebHeaderCollection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Net.WebProxy.dll">
+      <PackagePath>MyHappyCat\System.Net.WebProxy.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Net.WebSockets.Client.dll">
+      <PackagePath>MyHappyCat\System.Net.WebSockets.Client.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Net.WebSockets.dll">
+      <PackagePath>MyHappyCat\System.Net.WebSockets.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Net.dll">
+      <PackagePath>MyHappyCat\System.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Numerics.Vectors.dll">
+      <PackagePath>MyHappyCat\System.Numerics.Vectors.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Numerics.dll">
+      <PackagePath>MyHappyCat\System.Numerics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.ObjectModel.dll">
+      <PackagePath>MyHappyCat\System.ObjectModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Private.CoreLib.dll">
+      <PackagePath>MyHappyCat\System.Private.CoreLib.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Private.DataContractSerialization.dll">
+      <PackagePath>MyHappyCat\System.Private.DataContractSerialization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Private.Uri.dll">
+      <PackagePath>MyHappyCat\System.Private.Uri.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Private.Xml.Linq.dll">
+      <PackagePath>MyHappyCat\System.Private.Xml.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Private.Xml.dll">
+      <PackagePath>MyHappyCat\System.Private.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Reflection.DispatchProxy.dll">
+      <PackagePath>MyHappyCat\System.Reflection.DispatchProxy.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Reflection.Emit.ILGeneration.dll">
+      <PackagePath>MyHappyCat\System.Reflection.Emit.ILGeneration.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Reflection.Emit.Lightweight.dll">
+      <PackagePath>MyHappyCat\System.Reflection.Emit.Lightweight.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Reflection.Emit.dll">
+      <PackagePath>MyHappyCat\System.Reflection.Emit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Reflection.Extensions.dll">
+      <PackagePath>MyHappyCat\System.Reflection.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Reflection.Metadata.dll">
+      <PackagePath>MyHappyCat\System.Reflection.Metadata.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Reflection.Primitives.dll">
+      <PackagePath>MyHappyCat\System.Reflection.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Reflection.TypeExtensions.dll">
+      <PackagePath>MyHappyCat\System.Reflection.TypeExtensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Reflection.dll">
+      <PackagePath>MyHappyCat\System.Reflection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Resources.Reader.dll">
+      <PackagePath>MyHappyCat\System.Resources.Reader.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Resources.ResourceManager.dll">
+      <PackagePath>MyHappyCat\System.Resources.ResourceManager.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Resources.Writer.dll">
+      <PackagePath>MyHappyCat\System.Resources.Writer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>MyHappyCat\System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Runtime.CompilerServices.VisualC.dll">
+      <PackagePath>MyHappyCat\System.Runtime.CompilerServices.VisualC.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Runtime.Extensions.dll">
+      <PackagePath>MyHappyCat\System.Runtime.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Runtime.Handles.dll">
+      <PackagePath>MyHappyCat\System.Runtime.Handles.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Runtime.InteropServices.JavaScript.dll">
+      <PackagePath>MyHappyCat\System.Runtime.InteropServices.JavaScript.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Runtime.InteropServices.RuntimeInformation.dll">
+      <PackagePath>MyHappyCat\System.Runtime.InteropServices.RuntimeInformation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Runtime.InteropServices.dll">
+      <PackagePath>MyHappyCat\System.Runtime.InteropServices.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Runtime.Intrinsics.dll">
+      <PackagePath>MyHappyCat\System.Runtime.Intrinsics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Runtime.Loader.dll">
+      <PackagePath>MyHappyCat\System.Runtime.Loader.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Runtime.Numerics.dll">
+      <PackagePath>MyHappyCat\System.Runtime.Numerics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Runtime.Serialization.Formatters.dll">
+      <PackagePath>MyHappyCat\System.Runtime.Serialization.Formatters.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Runtime.Serialization.Json.dll">
+      <PackagePath>MyHappyCat\System.Runtime.Serialization.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>MyHappyCat\System.Runtime.Serialization.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>MyHappyCat\System.Runtime.Serialization.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Runtime.Serialization.dll">
+      <PackagePath>MyHappyCat\System.Runtime.Serialization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Runtime.dll">
+      <PackagePath>MyHappyCat\System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Security.AccessControl.dll">
+      <PackagePath>MyHappyCat\System.Security.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Security.Claims.dll">
+      <PackagePath>MyHappyCat\System.Security.Claims.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Security.Cryptography.Algorithms.dll">
+      <PackagePath>MyHappyCat\System.Security.Cryptography.Algorithms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Security.Cryptography.Cng.dll">
+      <PackagePath>MyHappyCat\System.Security.Cryptography.Cng.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Security.Cryptography.Csp.dll">
+      <PackagePath>MyHappyCat\System.Security.Cryptography.Csp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Security.Cryptography.Encoding.dll">
+      <PackagePath>MyHappyCat\System.Security.Cryptography.Encoding.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Security.Cryptography.OpenSsl.dll">
+      <PackagePath>MyHappyCat\System.Security.Cryptography.OpenSsl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Security.Cryptography.Primitives.dll">
+      <PackagePath>MyHappyCat\System.Security.Cryptography.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Security.Cryptography.X509Certificates.dll">
+      <PackagePath>MyHappyCat\System.Security.Cryptography.X509Certificates.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Security.Cryptography.dll">
+      <PackagePath>MyHappyCat\System.Security.Cryptography.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Security.Principal.Windows.dll">
+      <PackagePath>MyHappyCat\System.Security.Principal.Windows.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Security.Principal.dll">
+      <PackagePath>MyHappyCat\System.Security.Principal.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Security.SecureString.dll">
+      <PackagePath>MyHappyCat\System.Security.SecureString.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Security.dll">
+      <PackagePath>MyHappyCat\System.Security.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.ServiceModel.Web.dll">
+      <PackagePath>MyHappyCat\System.ServiceModel.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.ServiceProcess.dll">
+      <PackagePath>MyHappyCat\System.ServiceProcess.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Text.Encoding.CodePages.dll">
+      <PackagePath>MyHappyCat\System.Text.Encoding.CodePages.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Text.Encoding.Extensions.dll">
+      <PackagePath>MyHappyCat\System.Text.Encoding.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Text.Encoding.dll">
+      <PackagePath>MyHappyCat\System.Text.Encoding.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Text.Encodings.Web.dll">
+      <PackagePath>MyHappyCat\System.Text.Encodings.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Text.Json.dll">
+      <PackagePath>MyHappyCat\System.Text.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Text.RegularExpressions.dll">
+      <PackagePath>MyHappyCat\System.Text.RegularExpressions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Threading.Channels.dll">
+      <PackagePath>MyHappyCat\System.Threading.Channels.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Threading.Overlapped.dll">
+      <PackagePath>MyHappyCat\System.Threading.Overlapped.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Threading.Tasks.Dataflow.dll">
+      <PackagePath>MyHappyCat\System.Threading.Tasks.Dataflow.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Threading.Tasks.Extensions.dll">
+      <PackagePath>MyHappyCat\System.Threading.Tasks.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>MyHappyCat\System.Threading.Tasks.Parallel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Threading.Tasks.dll">
+      <PackagePath>MyHappyCat\System.Threading.Tasks.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Threading.Thread.dll">
+      <PackagePath>MyHappyCat\System.Threading.Thread.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Threading.ThreadPool.dll">
+      <PackagePath>MyHappyCat\System.Threading.ThreadPool.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Threading.Timer.dll">
+      <PackagePath>MyHappyCat\System.Threading.Timer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Threading.dll">
+      <PackagePath>MyHappyCat\System.Threading.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Transactions.Local.dll">
+      <PackagePath>MyHappyCat\System.Transactions.Local.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Transactions.dll">
+      <PackagePath>MyHappyCat\System.Transactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.ValueTuple.dll">
+      <PackagePath>MyHappyCat\System.ValueTuple.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Web.HttpUtility.dll">
+      <PackagePath>MyHappyCat\System.Web.HttpUtility.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Web.dll">
+      <PackagePath>MyHappyCat\System.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Windows.dll">
+      <PackagePath>MyHappyCat\System.Windows.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Xml.Linq.dll">
+      <PackagePath>MyHappyCat\System.Xml.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Xml.ReaderWriter.dll">
+      <PackagePath>MyHappyCat\System.Xml.ReaderWriter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Xml.Serialization.dll">
+      <PackagePath>MyHappyCat\System.Xml.Serialization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Xml.XDocument.dll">
+      <PackagePath>MyHappyCat\System.Xml.XDocument.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Xml.XPath.XDocument.dll">
+      <PackagePath>MyHappyCat\System.Xml.XPath.XDocument.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Xml.XPath.dll">
+      <PackagePath>MyHappyCat\System.Xml.XPath.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Xml.XmlDocument.dll">
+      <PackagePath>MyHappyCat\System.Xml.XmlDocument.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Xml.XmlSerializer.dll">
+      <PackagePath>MyHappyCat\System.Xml.XmlSerializer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.Xml.dll">
+      <PackagePath>MyHappyCat\System.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.dll">
+      <PackagePath>MyHappyCat\System.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\WindowsBase.dll">
+      <PackagePath>MyHappyCat\WindowsBase.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\mscorlib.dll">
+      <PackagePath>MyHappyCat\mscorlib.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\netstandard.dll">
+      <PackagePath>MyHappyCat\netstandard.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\Microsoft.DiaSymReader.Native.amd64.dll">
+      <PackagePath>MyHappyCat\Microsoft.DiaSymReader.Native.amd64.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\System.IO.Compression.Native.dll">
+      <PackagePath>MyHappyCat\System.IO.Compression.Native.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\clretwrc.dll">
+      <PackagePath>MyHappyCat\clretwrc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\clrgc.dll">
+      <PackagePath>MyHappyCat\clrgc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\clrgcexp.dll">
+      <PackagePath>MyHappyCat\clrgcexp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\clrjit.dll">
+      <PackagePath>MyHappyCat\clrjit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\coreclr.dll">
+      <PackagePath>MyHappyCat\coreclr.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\createdump.exe">
+      <PackagePath>MyHappyCat\createdump.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\hostfxr.dll">
+      <PackagePath>MyHappyCat\hostfxr.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\hostpolicy.dll">
+      <PackagePath>MyHappyCat\hostpolicy.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\mscordaccore.dll">
+      <PackagePath>MyHappyCat\mscordaccore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\mscordaccore_amd64_amd64_9.0.725.31616.dll">
+      <PackagePath>MyHappyCat\mscordaccore_amd64_amd64_9.0.725.31616.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\mscordbi.dll">
+      <PackagePath>MyHappyCat\mscordbi.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\mscorrc.dll">
+      <PackagePath>MyHappyCat\mscorrc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\msquic.dll">
+      <PackagePath>MyHappyCat\msquic.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\win-x64\msixpublish\Calculator.dll">
+      <PackagePath>MyHappyCat\Calculator.dll</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

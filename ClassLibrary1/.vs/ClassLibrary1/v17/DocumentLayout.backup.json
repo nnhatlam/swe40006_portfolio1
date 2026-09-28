@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\STUDY\\SWIN\\SWE40006\\Portfolio 1\\ClassLibrary1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF47FF4-2D36-432E-8829-0606923D390C}|..\\ConsoleApp1\\ConsoleApp1.csproj|d:\\study\\swin\\swe40006\\portfolio 1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9951EFD1-ACB3-4973-8910-D7BE180CB19F}|ClassLibrary1.csproj|d:\\study\\swin\\swe40006\\portfolio 1\\classlibrary1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9951EFD1-ACB3-4973-8910-D7BE180CB19F}|ClassLibrary1.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\STUDY\\SWIN\\SWE40006\\Portfolio 1\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "..\\ConsoleApp1\\Program.cs",
+              "ToolTip": "D:\\STUDY\\SWIN\\SWE40006\\Portfolio 1\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "..\\ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T14:16:47.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\STUDY\\SWIN\\SWE40006\\Portfolio 1\\ClassLibrary1\\Class1.cs",
+              "RelativeDocumentMoniker": "Class1.cs",
+              "ToolTip": "D:\\STUDY\\SWIN\\SWE40006\\Portfolio 1\\ClassLibrary1\\Class1.cs",
+              "RelativeToolTip": "Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T14:14:24.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+MainPackage=D:\STUDY\SWIN\SWE40006\Portfolio 1\WapProjTemplate1\bin\x64\Release\Upload\WapProjTemplate1_1.0.2.0_x64.msix
+SymbolPackage=D:\STUDY\SWIN\SWE40006\Portfolio 1\WapProjTemplate1\bin\x64\Release\Upload\WapProjTemplate1_1.0.2.0\WapProjTemplate1_1.0.2.0_x64.appxsym

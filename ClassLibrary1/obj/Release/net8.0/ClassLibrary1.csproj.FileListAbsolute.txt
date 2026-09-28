@@ -1,0 +1,11 @@
+D:\STUDY\SWIN\SWE40006\Portfolio 1\ClassLibrary1\bin\Release\net8.0\ClassLibrary1.deps.json
+D:\STUDY\SWIN\SWE40006\Portfolio 1\ClassLibrary1\bin\Release\net8.0\ClassLibrary1.dll
+D:\STUDY\SWIN\SWE40006\Portfolio 1\ClassLibrary1\bin\Release\net8.0\ClassLibrary1.pdb
+D:\STUDY\SWIN\SWE40006\Portfolio 1\ClassLibrary1\obj\Release\net8.0\ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUDY\SWIN\SWE40006\Portfolio 1\ClassLibrary1\obj\Release\net8.0\ClassLibrary1.AssemblyInfoInputs.cache
+D:\STUDY\SWIN\SWE40006\Portfolio 1\ClassLibrary1\obj\Release\net8.0\ClassLibrary1.AssemblyInfo.cs
+D:\STUDY\SWIN\SWE40006\Portfolio 1\ClassLibrary1\obj\Release\net8.0\ClassLibrary1.csproj.CoreCompileInputs.cache
+D:\STUDY\SWIN\SWE40006\Portfolio 1\ClassLibrary1\obj\Release\net8.0\ClassLibrary1.dll
+D:\STUDY\SWIN\SWE40006\Portfolio 1\ClassLibrary1\obj\Release\net8.0\refint\ClassLibrary1.dll
+D:\STUDY\SWIN\SWE40006\Portfolio 1\ClassLibrary1\obj\Release\net8.0\ClassLibrary1.pdb
+D:\STUDY\SWIN\SWE40006\Portfolio 1\ClassLibrary1\obj\Release\net8.0\ref\ClassLibrary1.dll

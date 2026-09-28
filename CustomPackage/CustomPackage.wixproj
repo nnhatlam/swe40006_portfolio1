@@ -1,0 +1,9 @@
+﻿<Project Sdk="WixToolset.Sdk/7.0.0">
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\COS20007\Custom Program\MyHappyCat2\MyHappyCat.csproj" />
+    <ProjectReference Include="..\Calculator\Calculator.csproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <AcceptEula>wix7</AcceptEula>
+  </PropertyGroup>
+</Project>

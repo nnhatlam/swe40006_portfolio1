@@ -1,0 +1,8 @@
+BuiltContentOutput	D:\STUDY\SWIN\SWE40006\Portfolio 1\CustomPackage\obj\x64\Release\en-US\cab1.cab
+BuiltPdbOutput	D:\STUDY\SWIN\SWE40006\Portfolio 1\CustomPackage\obj\x64\Release\en-US\CustomPackage.wixpdb
+BuiltTargetOutput	D:\STUDY\SWIN\SWE40006\Portfolio 1\CustomPackage\obj\x64\Release\en-US\CustomPackage.msi
+Input	D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\\Calculator.dll
+Input	D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\\MyHappyCat.dll
+Input	D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\\MyHappyCat.exe
+Input	D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\x64\Release\net9.0\win-x64\\MyHappyCat.runtimeconfig.json
+Intermediate	D:\STUDY\SWIN\SWE40006\Portfolio 1\CustomPackage\obj\x64\Release\en-US\cab1.cab

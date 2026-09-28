@@ -1,0 +1,18 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Fragment>
+    <ComponentGroup Id="ExampleComponents" Directory="INSTALLFOLDER">
+		<Component>
+			<File Source="$(var.MyHappyCat.TargetDir)\MyHappyCat.exe" />
+		</Component>
+		<Component>
+			<File Source="$(var.MyHappyCat.TargetDir)\MyHappyCat.dll" />
+		</Component>
+		<Component>
+			<File Source ="$(var.MyHappyCat.TargetDir)\MyHappyCat.runtimeconfig.json" />
+		</Component>
+		<Component>
+			<File Source="$(var.MyHappyCat.TargetDir)\Calculator.dll" />
+		</Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>

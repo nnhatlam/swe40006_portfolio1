@@ -1,0 +1,8 @@
+D:\STUDY\SWIN\SWE40006\Portfolio 1\CustomPackage\bin\x64\Release\en-US\CustomPackage.msi
+D:\STUDY\SWIN\SWE40006\Portfolio 1\CustomPackage\bin\x64\Release\en-US\cab1.cab
+D:\STUDY\SWIN\SWE40006\Portfolio 1\CustomPackage\bin\x64\Release\en-US\CustomPackage.wixpdb
+D:\STUDY\SWIN\SWE40006\Portfolio 1\CustomPackage\obj\x64\Release\CustomPackage.wixproj.CoreCompileInputs.cache
+D:\STUDY\SWIN\SWE40006\Portfolio 1\CustomPackage\obj\x64\Release\en-US\cab1.cab
+D:\STUDY\SWIN\SWE40006\Portfolio 1\CustomPackage\obj\x64\Release\en-US\CustomPackage.msi
+D:\STUDY\SWIN\SWE40006\Portfolio 1\CustomPackage\obj\x64\Release\en-US\CustomPackage.wixpdb
+D:\STUDY\SWIN\SWE40006\Portfolio 1\CustomPackage\obj\x64\Release\CustomPackage.wixproj.BindTracking-en-US.txt

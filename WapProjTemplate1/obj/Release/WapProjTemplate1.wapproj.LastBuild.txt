@@ -1,0 +1,15 @@
+D:\STUDY\SWIN\SWE40006\Portfolio 1\WapProjTemplate1\Images\SplashScreen.scale-200.png
+D:\STUDY\SWIN\SWE40006\Portfolio 1\WapProjTemplate1\Images\LockScreenLogo.scale-200.png
+D:\STUDY\SWIN\SWE40006\Portfolio 1\WapProjTemplate1\Images\Square150x150Logo.scale-200.png
+D:\STUDY\SWIN\SWE40006\Portfolio 1\WapProjTemplate1\Images\Square44x44Logo.scale-200.png
+D:\STUDY\SWIN\SWE40006\Portfolio 1\WapProjTemplate1\Images\Square44x44Logo.targetsize-24_altform-unplated.png
+D:\STUDY\SWIN\SWE40006\Portfolio 1\WapProjTemplate1\Images\StoreLogo.png
+D:\STUDY\SWIN\SWE40006\Portfolio 1\WapProjTemplate1\Images\Wide310x150Logo.scale-200.png
+D:\STUDY\SWIN\SWE40006\Portfolio 1\WapProjTemplate1\bin\AnyCPU\Release\resources.pri
+D:\STUDY\SWIN\SWE40006\Portfolio 1\Calculator\bin\Release\net8.0\Calculator.dll
+D:\STUDY\SWIN\SWE40006\Portfolio 1\Calculator\bin\Release\net8.0\Calculator.pdb
+D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\Release\net9.0\MyHappyCat.deps.json
+D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\obj\Release\net9.0\apphost.exe
+D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\Release\net9.0\MyHappyCat.runtimeconfig.json
+D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\Release\net9.0\MyHappyCat.dll
+D:\STUDY\SWIN\COS20007\Custom Program\MyHappyCat2\bin\Release\net9.0\MyHappyCat.pdb

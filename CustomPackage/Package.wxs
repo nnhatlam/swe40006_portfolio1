@@ -1,0 +1,10 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Package Id="TODO_Manufacturer.CustomPackage" 
+		   Name="My Happy Cat" Manufacturer="TNguyen Nhat Lam" Version="1.0.0">
+    <MajorUpgrade DowngradeErrorMessage="A newer version of My Happy Cat is installed" />
+
+    <Feature Id="Main">
+      <ComponentGroupRef Id="ExampleComponents" />
+    </Feature>
+  </Package>
+</Wix>

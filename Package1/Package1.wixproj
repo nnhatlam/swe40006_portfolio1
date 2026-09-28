@@ -1,0 +1,9 @@
+﻿<Project Sdk="WixToolset.Sdk/7.0.0">
+	<ItemGroup>
+		<ProjectReference Include="..\PortfolioApp1\PortfolioApp1.csproj" />
+	</ItemGroup>
+	<PropertyGroup>
+		<AcceptEula>wix7</AcceptEula>
+	</PropertyGroup>
+	
+</Project>

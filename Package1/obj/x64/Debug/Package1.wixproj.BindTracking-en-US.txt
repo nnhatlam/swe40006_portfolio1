@@ -1,0 +1,5 @@
+BuiltContentOutput	D:\STUDY\SWIN\SWE40006\Portfolio 1\Package1\obj\x64\Debug\en-US\cab1.cab
+BuiltPdbOutput	D:\STUDY\SWIN\SWE40006\Portfolio 1\Package1\obj\x64\Debug\en-US\Package1.wixpdb
+BuiltTargetOutput	D:\STUDY\SWIN\SWE40006\Portfolio 1\Package1\obj\x64\Debug\en-US\Package1.msi
+Input	D:\STUDY\SWIN\SWE40006\Portfolio 1\PortfolioApp1\bin\Debug\\PortfolioApp1.exe
+Intermediate	D:\STUDY\SWIN\SWE40006\Portfolio 1\Package1\obj\x64\Debug\en-US\cab1.cab

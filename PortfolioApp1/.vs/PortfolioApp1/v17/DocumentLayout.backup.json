@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\STUDY\\SWIN\\SWE40006\\Portfolio 1\\PortfolioApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A2C2FB-3263-72D0-B1E9-EE349503DDD4}|..\\..\\..\\COS20007\\Custom Program\\MyHappyCat2\\MyHappyCat.csproj|d:\\study\\swin\\cos20007\\custom program\\myhappycat2\\focuspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A2C2FB-3263-72D0-B1E9-EE349503DDD4}|..\\..\\..\\COS20007\\Custom Program\\MyHappyCat2\\MyHappyCat.csproj|d:\\study\\swin\\cos20007\\custom program\\myhappycat2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A2C2FB-3263-72D0-B1E9-EE349503DDD4}|..\\..\\..\\COS20007\\Custom Program\\MyHappyCat2\\MyHappyCat.csproj|d:\\study\\swin\\cos20007\\custom program\\myhappycat2\\gamepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A2C2FB-3263-72D0-B1E9-EE349503DDD4}|..\\..\\..\\COS20007\\Custom Program\\MyHappyCat2\\MyHappyCat.csproj|d:\\study\\swin\\cos20007\\custom program\\myhappycat2\\myhappycat.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyHappyCat",
+              "DocumentMoniker": "D:\\STUDY\\SWIN\\COS20007\\Custom Program\\MyHappyCat2\\MyHappyCat.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\COS20007\\Custom Program\\MyHappyCat2\\MyHappyCat.csproj",
+              "ToolTip": "D:\\STUDY\\SWIN\\COS20007\\Custom Program\\MyHappyCat2\\MyHappyCat.csproj",
+              "RelativeToolTip": "..\\..\\..\\COS20007\\Custom Program\\MyHappyCat2\\MyHappyCat.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-28T13:05:55.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GamePage.cs",
+              "DocumentMoniker": "D:\\STUDY\\SWIN\\COS20007\\Custom Program\\MyHappyCat2\\GamePage.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\COS20007\\Custom Program\\MyHappyCat2\\GamePage.cs",
+              "ToolTip": "D:\\STUDY\\SWIN\\COS20007\\Custom Program\\MyHappyCat2\\GamePage.cs",
+              "RelativeToolTip": "..\\..\\..\\COS20007\\Custom Program\\MyHappyCat2\\GamePage.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T11:36:12.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\STUDY\\SWIN\\COS20007\\Custom Program\\MyHappyCat2\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\COS20007\\Custom Program\\MyHappyCat2\\Program.cs",
+              "ToolTip": "D:\\STUDY\\SWIN\\COS20007\\Custom Program\\MyHappyCat2\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\COS20007\\Custom Program\\MyHappyCat2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T11:30:13.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FocusPage.cs",
+              "DocumentMoniker": "D:\\STUDY\\SWIN\\COS20007\\Custom Program\\MyHappyCat2\\FocusPage.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\COS20007\\Custom Program\\MyHappyCat2\\FocusPage.cs",
+              "ToolTip": "D:\\STUDY\\SWIN\\COS20007\\Custom Program\\MyHappyCat2\\FocusPage.cs",
+              "RelativeToolTip": "..\\..\\..\\COS20007\\Custom Program\\MyHappyCat2\\FocusPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T11:28:20.935Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

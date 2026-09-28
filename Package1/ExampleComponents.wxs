@@ -1,0 +1,9 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Fragment>
+    <ComponentGroup Id="ExampleComponents" Directory="INSTALLFOLDER">
+      <Component>
+        <File Source="$(var.PortfolioApp1.TargetDir)\PortfolioApp1.exe" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>
